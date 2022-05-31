@@ -8,7 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
-    private let backgroundColor = Color(red: 224.0/255.0, green: 155.0/255.0, blue: 170.0/255.0)
+    
+    private let backgroundColor = Color(
+        red: 224.0/255.0,
+        green: 155.0/255.0,
+        blue: 170.0/255.0
+    )
         private let eyeSize: CGFloat = 120
 
         var body: some View {
@@ -35,7 +40,12 @@ struct ContentView: View {
     }
 
     struct Eye: View {
-        private let foregroundColor = Color(red: 227.0/255.0, green: 176.0/255.0, blue: 178.0/255.0)
+        
+        private let foregroundColor = Color(
+            red: 227.0/255.0,
+            green: 176.0/255.0,
+            blue: 178.0/255.0
+        )
         @State var size: CGFloat
         @State private var animate = false
 
